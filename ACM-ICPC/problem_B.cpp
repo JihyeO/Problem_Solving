@@ -25,7 +25,7 @@ int main(int argc, const char * argv[]) {
         }
         else{
             //be careful here.
-            //when the square of 2 become over long long range, it goes to zero.
+            //when the square of 2 becomes over long long range, it goes to zero.
             //so we have to use '%'
             mul=(mul*2)%16769023;
             balance[i]=mul;
