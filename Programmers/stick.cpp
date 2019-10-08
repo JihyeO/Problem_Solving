@@ -1,5 +1,4 @@
 //
-//  main.cpp
 //  programmers_42585_쇠막대기
 //
 //  Created by 오지혜 on 08/10/2019.
