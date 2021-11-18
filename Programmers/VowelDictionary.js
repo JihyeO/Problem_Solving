@@ -7,7 +7,7 @@ let order = 0;
 let dictionary = {};
 
 function solution(target) {
-    makeDictionary("", target);
+    makeDictionary("");
     return dictionary[target];
 }
 
