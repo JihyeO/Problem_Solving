@@ -10,7 +10,7 @@ public class BamAngGang {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int result = 8;
-        int n = 1;
+        int n = sc.nextInt();
         
         for (int i = 1; ; i++) {
 			if (n - Math.pow(2, i) == 0) {
@@ -21,7 +21,6 @@ public class BamAngGang {
 				break;
 			}
 		}
-        
         System.out.println(result);
     }
 }
